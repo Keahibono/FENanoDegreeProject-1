@@ -1,0 +1,91 @@
+.container {
+  max-width: 945px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.logo {
+  max-width: 100px;
+  margin-bottom: -15px;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 48px;
+}
+
+hr {
+  color: #BCBBBB;
+  background-color: #BCBBBB;
+  border: none;
+  height: 3px;
+  display: block;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.portfolio-head {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #BCBBBB;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+p {
+  text-align: center;
+}
+
+@media screen and (max-width: 543px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+
+  .logo {
+    max-width: 70px;
+  }
+}
+
+@media  screen and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 8px;
+  }
+}
+
+@media  screen and (max-width: 991px) {
+  p {
+    font-size: 11px;
+  }
+}
+

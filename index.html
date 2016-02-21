@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Paul Keahi Portfolio</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,100,200,300" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row portfolio-head">
+                <div class="col-xl-6 col-lg-4 col-md-3 col-sm-3 col-xs-3">
+                    <img class="img-responsive logo" src="images/udacity-logo.png" alt="Orange Udacity Logo"></div>
+                <div class="col-xl-6 col-lg-8 col-md-9 col-sm-9 col-xs-9 text-uppercase text-right">
+                  <h1>Keahi Selhorst</h1>
+                  <h4>Front-End Warrior</h4>
+                </div>
+            </div>
+            <div class="row">
+              <hr>
+            </div>
+            <div class="row">
+                <div class="col-xl-12  col-xs-12">
+                  <img class="img-responsive" src="images/palm-tree-pk.jpg" alt="Paul Keahi cartoon image with sandy white beach and palm tree">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                  <h2>Featured Work</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img class="img-responsive" src="images/firstReactApp.jpg" alt="screenshot of React App" data-toggle="modal" data-target="#react">
+                    <h3 class="text-uppercase">First React App</h3>
+                    <p><a href="https://github.com/Keahibono/github-Notes">GitHub/Keahibono</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img class="img-responsive" src="images/whiteTeethVideoLanding.jpg" alt="screenshot of Landing Page" data-toggle="modal" data-target="#whiteTeeth">
+                    <h3 class="text-uppercase">Video Landing Page</h3>
+                    <p><a href="https://github.com/Keahibono/whiteTeeth-videoLanding">GitHub/Keahibono</a></p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <img class="img-responsive" src="images/dittoApp.jpg" alt="iTunes image of Ditto App" data-toggle="modal" data-target="#ditto">
+                    <h3 class="text-uppercase">Grumble App, Inc.</h3>
+                    <p><a href="https://itunes.apple.com/us/app/ditto-be-you/id1059968490?mt=8">Apple's iTunes</a></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- First React App Modal -->
+        <div class="modal fade" id="react" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/firstReactApp.jpg" alt="My First React App: GitHub React Application">
+                    </div>
+                    <div class="modal-footer">
+                        <p>This is my very first React Application. This SPA uses firebase to save the notesand attaches each list to the appropriate GitHub user account. This was a great exercise utilizing node modules like webpack, react, react-router, react-dom, babel-preset-react, babel-loader, firebase, and reactfire. Feel free to fork and create your own note system.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- White Teeth Modal -->
+        <div class="modal fade" id="whiteTeeth" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/whiteTeethVideoLanding.jpg" alt="Screenshot of WhiteTeeth.life video landing page">
+                    </div>
+                    <div class="modal-footer">
+                        <p>Here is a project I am currently working on to help my client bring in new patients. It is a simple Bootstrap site now, but I will be turning it into another React App soon.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Ditto Modal -->
+        <div class="modal fade" id="ditto" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img class="img-responsive" src="images/dittoApp.jpg" alt="iTunes Ditto application landing page">
+                    </div>
+                    <div class="modal-footer">
+                        <p>After winning 2nd Place at Atartup Weekend Honolulu in June 2015, Team Grumble (consisting of @fobabett, @coproductions, @danarei808, and myself) applies and gets accepted into top accelerator BlueStartups. After spending 15 weeks of mentorship, ledership, and training, we are proud to announce...Ditto! A social media application to simply be yourself.</p>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
